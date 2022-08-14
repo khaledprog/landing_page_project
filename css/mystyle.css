@@ -1,1 +1,52 @@
+/* importing normalize file */
 @import 'normalize.css';
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700;800&display=swap');
+
+/* main rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -o-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* responsive */
+
+/* Small screen*/
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium screen*/
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large  screen*/
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
